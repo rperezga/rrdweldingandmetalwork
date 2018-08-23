@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Balay Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="images/icon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="logo"><img src="images/logo_white.png" alt="RRD Welding and Metalwork logo"></div>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="work.html">Project</a></li>					
+					<li class="colorlib-active"><a href="contact.php">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> Distributed by: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> </small></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+
+			<div class="colorlib-contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+							<h2 class="colorlib-heading">Get in Touch</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">danierkyrr@yahoo.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>9809 NW 80th Ave, Hialeah Gardens, FL 33016</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">786 420 7000</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInLeft">
+									
+									<form method="post" name="myemailform" action="php/send-email.php">
+
+										<div class="form-group">
+											<input type="text" class="form-control" name="name" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" name="email" placeholder="Email">
+										</div>										
+										<div class="form-group">
+											<textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+
+										<?php
+											$a = rand(1, 9);
+											$b = rand(1, 9);
+
+											$suma = "   {$a}  +  {$b} =  ";
+											$result = $a + $b;
+										?>
+
+										<label style="font-size: 1.1em; margin-right: 15px;"><? print $suma ?></label>										
+										<input type="text" class="form-control" placeholder="?" style="width: 70px; display: inline-block;" id="textsend" onkeyup="success()">
+										<input type="submit" class="btn btn-primary btn-send-message" value="Send Message" style="float: right; width: 45%; margin-top: 10px;" id="button" disabled>
+
+									</form>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2134.7326172322855!2d-80.32874052825835!3d25.863617994884702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb06c78727fb%3A0xe38453c9c784c465!2s9809+NW+80th+Ave%2C+Hialeah+Gardens%2C+FL+33016!5e0!3m2!1sen!2sus!4v1534856892103" width="90%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			
+
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function success() {
+			if(document.getElementById("textsend").value != "" && document.getElementById("textsend").value == <? echo $result ?>) { 
+				document.getElementById('button').disabled = false; 
+			}else { 
+				document.getElementById('button').disabled = true;
+			}
+		}
+	</script>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Sticky Kit -->
+	<script src="js/sticky-kit.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
