@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Balay Template</title>
+	<title>RRD Welding and Metalwork</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -55,9 +55,9 @@
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="logo"><img src="images/logo_white.png" alt="RRD Welding and Metalwork logo"></div>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
+					<li><img src="images/logo_white.png" alt="RRD Welding and Metalwork logo" style="width: 100%; margin-bottom: 40px;"></li>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="work.html">Project</a></li>					
@@ -66,13 +66,12 @@
 			</nav>
 
 			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> Distributed by: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> </small></p>
 				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="https://www.facebook.com/RRD-welding-and-metal-313131662754715/"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-instagram"></i></a></li>
 				</ul>
+				<p><small>&copy;
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> Distributed by: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a> </span> </small></p>				
 			</div>
 
 		</aside>
