@@ -35,8 +35,8 @@
     <p><strong>MESSAGE: </strong>" .$message. "</p>
     <p>Thank you!</p>
     ";
-    $mail->AddAddress('danierkyrr@yahoo.com');
-
+    //$mail->AddAddress('danierkyrr@yahoo.com');
+    $mail->AddAddress('rperezga@gmail.com');
     $mail->Send();
 
 ?>
